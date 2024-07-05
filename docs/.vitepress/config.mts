@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LLM OPS",
   description: "A VitePress Site",
-  base:'llmops-docs/',
+  base:'/llmops-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
