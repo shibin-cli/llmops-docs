@@ -26,6 +26,7 @@ export default defineConfig({
         items: [
           { text: '介绍', link: '/guide/langchain/start' },
           { text: 'Prompt 组件', link: '/guide/langchain/prompt' },
+          { text: 'Model 组件', link: '/guide/langchain/model' },
         ]
       }
     ],
