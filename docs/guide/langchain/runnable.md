@@ -151,7 +151,7 @@ print(chain.invoke({
 ## RunnablePassthrough 传递数据
 `RunnablePassthrough` 可以获取上游的数据，并保持不变或者新增额外的键。
 
-使用 RunnablePassthrough 来简化 invoke 的调用流程
+使用 `RunnablePassthrough` 来简化 invoke 的调用流程
 ```py
 import dotenv
 from langchain_core.prompts import ChatPromptTemplate
@@ -191,5 +191,3 @@ print(chain.invoke({
     "query": "你好，我是谁？"
 }))
 ```
-
-

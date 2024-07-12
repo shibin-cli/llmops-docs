@@ -29,6 +29,7 @@ export default defineConfig({
           { text: "Model 组件", link: "/guide/langchain/model" },
           { text: "OutputParser 组件", link: "/guide/langchain/outputparser" },
           { text: "Runnable", link: "/guide/langchain/runnable" },
+          { text: "Memory", link: "/guide/langchain/memory" },
         ],
       },
     ],
